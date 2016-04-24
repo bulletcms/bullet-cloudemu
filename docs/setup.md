@@ -1,5 +1,13 @@
 # Setup
 
+## IMPORTANT
+Install using
+```zsh
+$ ./build.sh
+```
+for now.
+This is due to the fact that the gcloud emulator does not yet support grpc and thus for some reason cannot allow api calls or viewing of the admin page.
+
 ## Installation
 - Install Java 7 or later
 - Install the Google Cloud SDK
